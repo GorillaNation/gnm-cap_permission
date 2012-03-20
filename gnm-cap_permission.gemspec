@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "cap_permission.gemspec",
+    "gnm-cap_permission.gemspec",
+    "lib/gnm-cap_permission.rb",
     "test/helper.rb",
     "test/test_cap_permission.rb"
   ]
