@@ -1,14 +1,14 @@
-= cap_permission
+= gnm-cap_permission
 
 Adds group based permissions to Capistrano tasks.
 
 == Installation
 
-    $ gem install cap_permission
+    $ gem install gnm-cap_permission
     
 Include in your Capfile
     require 'rubygems'
-    require 'cap_permission'
+    require 'gnm-cap_permission'
     
 == Usage
 
@@ -31,6 +31,6 @@ Permission by users:
 
 == Copyright
 
-Copyright (c) 2012 Dru Ibarra. See LICENSE.txt for
+Copyright (c) 2012 Gorilla Nation Media. See LICENSE.txt for
 further details.
 

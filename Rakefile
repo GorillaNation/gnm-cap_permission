@@ -14,12 +14,12 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "cap_permission"
-  gem.homepage = "http://github.com/Druwerd/cap_permission"
+  gem.name = "gnm-cap_permission"
+  gem.homepage = "https://github.com/GorillaNation/gnm-cap_permission"
   gem.license = "MIT"
   gem.summary = %Q{adds group based permissions to Capistrano tasks}
   gem.description = %Q{adds group based permissions to Capistrano tasks}
-  gem.email = "Druwerd@gmail.com"
+  gem.email = "configurationmanagement@gorillanation.com"
   gem.authors = ["Dru Ibarra"]
   # dependencies defined in Gemfile
 end
@@ -47,7 +47,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "cap_permission #{version}"
+  rdoc.title = "gnm-cap_permission #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

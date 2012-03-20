@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{cap_permission}
+  s.name = %q{gnm-cap_permission}
   s.version = "1.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Dru Ibarra}]
-  s.date = %q{2012-03-13}
+  s.date = %q{2012-03-20}
   s.description = %q{adds group based permissions to Capistrano tasks}
-  s.email = %q{Druwerd@gmail.com}
+  s.email = %q{configurationmanagement@gorillanation.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -25,11 +25,10 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "cap_permission.gemspec",
-    "lib/cap_permission.rb",
     "test/helper.rb",
     "test/test_cap_permission.rb"
   ]
-  s.homepage = %q{http://github.com/Druwerd/cap_permission}
+  s.homepage = %q{https://github.com/GorillaNation/gnm-cap_permission}
   s.licenses = [%q{MIT}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.6}
